@@ -58,7 +58,7 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	bSizer14->Add( m_staticText24, 0, wxALL, 5 );
 	
 	m_textCtrlVacationText = new wxTextCtrl( m_panel1, wxID_ANY, wxEmptyString, wxPoint( 0,0 ), wxSize( 250,-1 ), wxTE_MULTILINE|wxTE_RICH );
-	m_textCtrlVacationText->SetMaxLength( 160 ); 
+	//m_textCtrlVacationText->SetMaxLength( 160 ); 
 	m_textCtrlVacationText->SetMinSize( wxSize( 250,-1 ) );
 	
 	bSizer14->Add( m_textCtrlVacationText, 1, wxALL|wxEXPAND, 5 );
@@ -82,7 +82,7 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	bSizer121 = new wxBoxSizer( wxVERTICAL );
 	
 	wxFlexGridSizer* fgSizer2;
-	fgSizer2 = new wxFlexGridSizer( 2, 2, 0, 0 );
+	fgSizer2 = new wxFlexGridSizer( 5, 2, 0, 0 );
 	fgSizer2->SetFlexibleDirection( wxBOTH );
 	fgSizer2->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 	
@@ -215,7 +215,7 @@ MainFrame1::MainFrame1( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer14->Add( m_staticText24, 0, wxALL, 5 );
 	
 	m_textCtrlVacationText = new wxTextCtrl( m_panel1, wxID_ANY, wxEmptyString, wxPoint( 0,0 ), wxSize( 250,-1 ), wxTE_MULTILINE|wxTE_RICH );
-	m_textCtrlVacationText->SetMaxLength( 160 ); 
+	//m_textCtrlVacationText->SetMaxLength( 160 ); 
 	m_textCtrlVacationText->SetMinSize( wxSize( 250,-1 ) );
 	
 	bSizer14->Add( m_textCtrlVacationText, 1, wxALL|wxEXPAND, 5 );
@@ -239,7 +239,7 @@ MainFrame1::MainFrame1( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer121 = new wxBoxSizer( wxVERTICAL );
 	
 	wxFlexGridSizer* fgSizer2;
-	fgSizer2 = new wxFlexGridSizer( 2, 2, 0, 0 );
+	fgSizer2 = new wxFlexGridSizer( 5, 2, 0, 0 );
 	fgSizer2->SetFlexibleDirection( wxBOTH );
 	fgSizer2->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 	
@@ -372,7 +372,7 @@ MainFrame2::MainFrame2( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer14->Add( m_staticText24, 0, wxALL, 5 );
 	
 	m_textCtrlVacationText = new wxTextCtrl( m_panel1, wxID_ANY, wxEmptyString, wxPoint( 0,0 ), wxSize( 250,-1 ), wxTE_MULTILINE|wxTE_RICH );
-	m_textCtrlVacationText->SetMaxLength( 160 ); 
+	//m_textCtrlVacationText->SetMaxLength( 160 ); 
 	m_textCtrlVacationText->SetMinSize( wxSize( 250,-1 ) );
 	
 	bSizer14->Add( m_textCtrlVacationText, 1, wxALL|wxEXPAND, 5 );
@@ -396,7 +396,7 @@ MainFrame2::MainFrame2( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer121 = new wxBoxSizer( wxVERTICAL );
 	
 	wxFlexGridSizer* fgSizer2;
-	fgSizer2 = new wxFlexGridSizer( 2, 2, 0, 0 );
+	fgSizer2 = new wxFlexGridSizer( 5, 2, 0, 0 );
 	fgSizer2->SetFlexibleDirection( wxBOTH );
 	fgSizer2->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 	
@@ -529,7 +529,7 @@ MainFrame3::MainFrame3( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer14->Add( m_staticText24, 0, wxALL, 5 );
 	
 	m_textCtrlVacationText = new wxTextCtrl( m_panel1, wxID_ANY, wxEmptyString, wxPoint( 0,0 ), wxSize( 250,-1 ), wxTE_MULTILINE|wxTE_RICH );
-	m_textCtrlVacationText->SetMaxLength( 160 ); 
+	//m_textCtrlVacationText->SetMaxLength( 160 ); 
 	m_textCtrlVacationText->SetMinSize( wxSize( 250,-1 ) );
 	
 	bSizer14->Add( m_textCtrlVacationText, 1, wxALL|wxEXPAND, 5 );
@@ -553,7 +553,7 @@ MainFrame3::MainFrame3( wxWindow* parent, wxWindowID id, const wxString& title, 
 	bSizer121 = new wxBoxSizer( wxVERTICAL );
 	
 	wxFlexGridSizer* fgSizer2;
-	fgSizer2 = new wxFlexGridSizer( 2, 2, 0, 0 );
+	fgSizer2 = new wxFlexGridSizer( 5, 2, 0, 0 );
 	fgSizer2->SetFlexibleDirection( wxBOTH );
 	fgSizer2->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 	
